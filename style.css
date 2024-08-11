@@ -159,7 +159,7 @@ header .fa-bars{
     width: 100%;
     border: 1.5rem solid #fff;
     border-radius: .5rem;
-    box-shadow: .5rem 1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     object-fit: cover;
 
 }
@@ -194,11 +194,40 @@ header .fa-bars{
     line-height: 1.5;
 
 }
+.icons-container{
+    background:#eee;
+    display: flex;
+    flex-wrap: wrap;
+   gap:1.5rem;
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+}
+.icons-container .icons{
+    background:#fff;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex:1 1 25rem;
+
+}
+
+.icons-container .icons img{
+  height: 5rem;
+  margin-right: 2rem;
+}
+.icons-container .icons h3{
+    color: #333;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+}
 
 
 
-
-
+.icons-container .icons span{
+    color: #555;
+    font-size: 1.3rem;
+}
 
 
 
@@ -344,6 +373,17 @@ header .fa-bars{
     .home .content span{
         font-size: 2.5rem;
     }
+    .icons-container .icons h3{
+    
+        font-size: 2rem;
+    }
+    .icons-conttainer .icons span{
+        font-size: 1.7rem;
+    }
+    
+    
+    
+    
 }
 
 @media (max-width:450px)
