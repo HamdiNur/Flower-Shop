@@ -18,3 +18,6 @@ Getting Started
 Download the website files.
 Open the index.html file in a web browser to view the website.
 Edit the HTML and CSS files to customize the website according to your needs.
+
+## Deployment
+https://flower-shop-kappa-six.vercel.app/
